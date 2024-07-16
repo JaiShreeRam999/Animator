@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background-image: url('heart.jpg');
+  background-size: cover;
+  cursor: pointer;
+  transition: transform 1s, background-image 1s;
+}
+
+.icon.rose {
+  background-image: url('rose.jpg');
+  transform: scale(1.2);
+}
+
+.icon.text {
+  width: auto;
+  height: auto;
+  background: none;
+  font-size: 2em;
+  color: #ff6347;
+  transform: scale(1.5);
+}
