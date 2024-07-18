@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
       icon.classList.remove('rose');
       icon.classList.add('text');
       icon.textContent = 'I LOVE YOU';
-    }, 1000); // Wait 1 second before transforming to text
+    }, 5000); // Wait 1 second before transforming to text
   });
 });
